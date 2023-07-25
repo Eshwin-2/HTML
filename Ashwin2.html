@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ticket Reservation</title>
+</head>
+<body>
+<form>
+<table border="1">
+<tr  style="text-align:center; background-color:rgb(59, 59, 46);">
+<th colspan="2" style="color:red; border-color:rgb(0, 255, 110)">Ticket Reservation</th>
+</tr>
+<tr  style="text-align:center; background-color:rgba(240, 244, 246, 0.032);">
+<th>Enter Name</th>
+<td> <input type="text"name="username"/></td>
+</tr>
+<tr  style="text-align:center; background-color:rgb(227, 236, 239);">
+</tr>
+<tr  style="text-align:center; background-color:rgb(234, 240, 242);">
+<th>Enter Address</th>
+<td> <textarea rows="5" cols="25" name="address"></textarea>
+</td>
+</tr>
+<tr style="background-color:rgb(238, 245, 247);">
+<th>Select Place</th>
+<td style="text-align:left; ">
+<input type="checkbox" id="ticket1" name="Coimbatore" value="Football"/>
+<label for="ticket1">Coimbatore</label><br>
+<input type="checkbox" id="ticket2" name="Chennai" value="Badminton"/>
+<label for="ticket2">Chennai</label><br>
+<input type="checkbox" id="ticket3" name="Bangalore" value="Cricket"/>
+<label for="ticket3">Bangalore</label><br>
+</td>
+</tr>
+<tr style="text-align:center;  background-color:rgb(237, 241, 243);">
+<th>Gender</th>
+<td> <input type="radio"name="gender" value="male"/>male
+<input type="radio"name="gender" value="Female"/>Female</td>
+</tr>
+<tr style="text-align:center; background-color:rgb(232, 236, 238);">
+<th>Select ur age</th>
+<td><select name="age" >
+<option value="" disabled selected hidden>Select</option>
+<option value="Below 18" >Below 18</option>
+<option value="18 to 25" >18 to 25</option>
+<option value="25 to 35" >25 to 35</option>
+</select> </td>
+</tr>
+<tr style="text-align:center; background-color:rgb(237, 240, 242);">
+<th>Select Photo</th>
+<td>
+<input type="file" id="myfile" name="myfile">
+<label for="myfile" ></label>
+</td>
+</tr>
+<tr style="text-align:center; background-color:rgb(235, 243, 246);">
+<td colspan="2" >
+<button type="button" style="width:30%" >Click Me</button>
+<button type="reset"  style="width:30%;">Reset</button>
+<button type="submit" style="width:30%;">Submit Form</button>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
